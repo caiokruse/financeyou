@@ -1,6 +1,5 @@
 runtime: python
-vm: true
-entrypoint: gunicorn -b :$PORT webapp:app
+env: flex
 
 runtime_config:
   python_version: 3.7
